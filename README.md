@@ -81,4 +81,4 @@ Otherwise pass the compiler explicitly:
 
 ## License
 
-The Unlicense (public domain dedication). See `LICENSE`.
+The CC0 1.0 Universal public domain dedication. See `LICENSE`.

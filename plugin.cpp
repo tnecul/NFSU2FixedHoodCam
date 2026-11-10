@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Unlicense
+// SPDX-License-Identifier: CC0-1.0
 //
 // NFSU2 Fixed Hood Cam — rigidly attach the hood camera to the car.
 //
