@@ -23,7 +23,6 @@ forcing player index 0 to pan `0`; AI car audio is unchanged. The centering
 respects `OnlyHood`: with `OnlyHood=1` it applies only in hood view, with
 `OnlyHood=0` it applies in every view.
 
-The EXE is patched in memory only. No game files are modified on disk.
 
 ## Install
 
@@ -32,8 +31,6 @@ The EXE is patched in memory only. No game files are modified on disk.
 2. Copy `NFSU2FixedHoodCam.asi` into the game's `scripts\` folder.
 3. Start the game normally (an ASI loader is required, as with any other
    `.asi` mod).
-4. Optionally copy `NFSU2FixedHoodCam.ini` next to the `.asi`. If it is
-   missing, the plugin creates one with default values on first run.
 
 ## Config
 
@@ -78,10 +75,7 @@ RemoveMovement=0
 
 ### Centered player car audio
 
-`[Audio] CenterPlayer=1` forces the player car's audio pan to `0` while
-leaving AI car positioning unchanged. The pan value is hardcoded; there is no
-config knob for it. The override honors `OnlyHood`: centered only in hood view
-when `OnlyHood=1`, centered in every view when `OnlyHood=0`.
+`[Audio] CenterPlayer=1` forces the player car's audio pan to center
 
 ## Build
 
