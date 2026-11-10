@@ -1,0 +1,12 @@
+# Build outputs
+*.asi
+*.log
+*.o
+*.obj
+*.exe
+*.pdb
+build/
+dist/
+
+# Legacy artifact names from before the rename
+HoodCameraForces.*
