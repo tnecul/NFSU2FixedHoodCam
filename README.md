@@ -50,28 +50,6 @@ HorizonLock=0
 CenterPlayer=1
 ```
 
-### Tightly fixed to the car, including roll (default)
-
-```ini
-[Camera]
-RemoveMovement=1
-HorizonLock=0
-```
-
-### Fixed mount, but horizon stays level
-
-```ini
-[Camera]
-RemoveMovement=1
-HorizonLock=1
-```
-
-### Vanilla camera
-
-```ini
-[Camera]
-RemoveMovement=0
-```
 
 ### Centered player car audio
 
