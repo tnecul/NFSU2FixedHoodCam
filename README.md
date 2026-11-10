@@ -50,11 +50,6 @@ HorizonLock=0
 CenterPlayer=1
 ```
 
-
-### Centered player car audio
-
-`[Audio] CenterPlayer=1` forces the player car's audio pan to center
-
 ## Build
 
 Requires a 32-bit MinGW-w64 `g++`. If it is on `PATH`:
