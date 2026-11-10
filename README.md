@@ -69,9 +69,6 @@ Otherwise pass the compiler explicitly:
 .\build.ps1 -Gxx "C:\path\to\mingw32\bin\g++.exe"
 ```
 
-The output is `NFSU2FixedHoodCam.asi` in this folder. Build outputs are ignored
-by git; attach the ASI to a GitHub release instead of committing it.
-
 ## Notes / limitations
 
 - The hook is at `0x453B44` (`CALL FUN_005BA9A0`). The stub is allocated near
